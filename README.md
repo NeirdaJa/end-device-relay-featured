@@ -24,7 +24,7 @@ This project aims to implement the new LBM (LoRaWAN Backend Milestone) functiona
 1. **Clone the repository:**
 
 ```
-git clone https://github.com/yourUsername/yourRepo.git
+git clone https://github.com/NeirdaJa/end-device-relay-featured.git
 ```
 
 2. **Configure your device:**
