@@ -37,8 +37,12 @@ Open the cloned project in your IDE and compile the code. Then, upload the compi
 
 ### Configuration
 
-- **Edit the configuration file:** Go to the configuration file (`config.h` or similar) to adjust the default settings according to your needs.
-- **Activate the Relay Function:** Follow the specific instructions in the quick start guide provided to activate the relay function on your device.
+- **Edit the configuration file:** Go to the `example_options.h` file (`/EndDevice-featured-relay/utilities/user_app/main_examples/example_options.h`) to adjust the default settings according to your needs.
+- **Activate the End device compatible Relay Function:** Follow this specific instruction to activate the end device compatible relay function on your device :
+
+```
+make full_sx1261 REGION=EU_868 RELAY_TX_ENBALE=yes
+```
 
 ## Usage
 
